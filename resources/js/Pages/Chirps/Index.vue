@@ -25,7 +25,7 @@ const form = useForm({
                 <textarea
                     v-model="form.message"
                     placeholder="What's on your mind?"
-                    class="block w-full border-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm"
+                    class="block w-full border-gray-300 dark:text-white dark:bg-gray-300 focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 rounded-md shadow-sm"
                 ></textarea>
                 <InputError :message="form.errors.message" class="mt-2" />
                 <PrimaryButton class="mt-4 !bg-blue-500 hover:!bg-blue-700">Chirp</PrimaryButton>

@@ -33,18 +33,18 @@ const showingNavigationDropdown = ref(false);
                             <div class="shrink-0 flex items-center">
                                 <Link :href="route('dashboard')">
                                     <ApplicationLogo
-                                        class="block h-9 w-auto fill-current text-gray-800"
+                                        class="block h-9 w-auto fill-current text-gray-800 dark:fill-white"
                                     />
                                 </Link>
                             </div>
 
                             <!-- Navigation Links -->
-                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex dark:text-white">
-                                <NavLink :href="route('dashboard')" :active="route().current('dashboard') ">
-                                    Dashboard
+                            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex ">
+                                <NavLink :href="route('dashboard')" :active="route().current('dashboard')  ">
+                                    <div class="dark:text-white">Dashboard</div>
                                 </NavLink>
                                 <NavLink :href="route('chirps.index')" :active="route().current('chirps.index')">
-                                    Chirps
+                                    <div class="dark:text-white">Chirps</div>
                                 </NavLink>
                             
                                 

@@ -22,8 +22,8 @@ const form = useForm({
 });
 </script>
 
-<template>
-    <section>
+<template >
+    <section >
         <header>
             <h2 class="text-lg font-medium text-gray-900">Profile Information</h2>
 
