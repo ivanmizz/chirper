@@ -6,7 +6,7 @@ import { Head } from '@inertiajs/vue3';
 </script>
 
 <template>
-    <Head title="Dashboard" class="dark:bg-slate-400"/>
+    <Head title="Dashboard" />
 
     <AuthenticatedLayout>
        <template #header >
