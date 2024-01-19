@@ -68,6 +68,8 @@ const submit = () => {
 
                 <InputError class="mt-2" :message="form.errors.password" />
             </div>
+        
+
 
             <div class="block mt-4">
                 <label class="flex items-center">
