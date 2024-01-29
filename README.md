@@ -12,7 +12,7 @@ Built by Laravel, Vue & Mysql.
 
 Download or clone this repository    
 ```
- https://github.com/ivanmizz/servicehub-2.git
+ https://github.com/ivanmizz/chirper.git
 ```
 Install dependencies  
   ```sh
